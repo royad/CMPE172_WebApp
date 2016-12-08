@@ -1,5 +1,60 @@
+
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+
+    // Wrapper
+    #wrapper
+
+        // Student INFO
+        #userInfo
+            h2 Student Info 
+            p
+                strong Name:
+                |  <span id='userInfoName'></span>
+                br
+                strong Status
+                |  <span id='userInfoStatus'></span>
+                br
+                strong Student ID:
+                |  <span id='userInfoSID'></span>
+                br
+                strong Class Title:
+                |  <span id='userInfoClass'></span>
+        // /Student INFO
+
+        // LIST
+        h2 Student Waitlist
+        #userList
+            table
+                thead
+                    th Name
+                    th Email
+                    th Delete
+                tbody
+        // /USER LIST
+              
+        // ADD USER
+
+        h2 Add Student
+        #addUser
+            fieldset
+                input#inputUserName(type='text', placeholder='Preferred Name')
+                input#inputUserEmail(type='text', placeholder='Email')
+                br
+                input#inputUserFullname(type='text', placeholder='Full Name')
+                input#inputStatus(type='text', placeholder='Status')
+                br
+                input#inputUserClass(type='text', placeholder='Class Title')
+                input#inputSID(type='text', placeholder='Student ID')
+                br
+                br
+                br
+                br
+                  
+              button.btn-primary#btnAddUser Add Student On Waitlist
+        // /ADD USER
+        div.right
+             a.small(href="/project") Sign Out
+
+    // /WRAPPER

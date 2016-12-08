@@ -1,5 +1,27 @@
 extends layout
 
 block content
-  h1= title
-  p 172 Project! Welcome to #{title}
+    h1= "Welcome to Student Waitlist Page"
+    h1= "Sign Up"
+    form#formAddUser(name="login",method="post",action="/loginadmin")
+        input#inputemail(type="text", placeholder="email", name="email")
+        <br />
+        <br />
+        input#inputpass(type="password", placeholder="password", name="pass")
+        <br />
+        <br />
+        button.btn-primary#btnSubmit(type="submit") Sign Up
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+    h1= "Login"
+    form#formAddUser(name="register",method="post",action="/register")
+        input#inputemail(type="text", placeholder="email", name="email")
+        <br />
+        <br />
+        input#inputpass(type="password", placeholder="password", name="pass")
+        <br />
+        <br />
+        button.btn-primary#btnSubmit(type="submit") Login

@@ -1,8 +1,157 @@
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  padding: 30px;
+  font: 20px "Lucida Grande", Helvetica, Arial, sans-serif;
+background: url(http://img.freepik.com/free-vector/background-with-white-squares_23-2147501484.jpg?size=338&ext=jpg);
+     -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+
+h2 {
+	margin:0 0 .5em 0;
+	color: #FF5733  ;
+
 }
 
 a {
-  color: #00B7FF;
+  color: orange;
 }
+
+#wrapper {
+	padding-left:312px;
+	position:relative;
+}
+
+#userList {
+	margin:0 0 30px 0;
+	
+}
+	#userList table {
+		top: ;
+	left: 800px;
+		border-collapse:separate;
+		border-spacing:1px;
+		background:#CCC;
+	}
+		#userList table th {
+			background:#EEE;
+			font-weight:600;
+			padding:10px 20px;
+			text-align:center;
+		}
+		#userList table tbody {
+			padding:0; margin:0;
+			border-collapse:collapse;
+			border-spacing:0px;
+		}
+			#userList table td {
+				background:#FFF;
+				padding:5px 10px;
+				text-align:center;
+			}
+
+#userInfo {
+	width:300px;
+	position:absolute;
+	top:0; left:0;
+
+}
+	#userInfo p {
+		padding:15px;
+		border:1px solid #CCC;
+		background:rgba(80,120,255,0.05);
+
+	}
+
+fieldset {
+	border:0;
+	padding:0; margin:0;
+color: red;
+
+}
+
+
+
+#inputUserName{
+min-width:30%;
+height:20px;
+color: red;
+border: 1px solid orange;
+}
+
+
+
+#inputUserFullname{
+min-width:30%;
+height:20px;
+color: red;
+border: 1px solid orange;
+}
+
+#inputUserClass{
+min-width:30%;
+height:20px;
+color: red;
+border: 1px solid orange;
+}
+
+
+#inputSID{
+min-width:30%;
+height:20px;
+color: red;
+border: 1px solid orange;
+
+}
+
+
+
+input#inputUserEmail{
+min-width:30%;
+height:20px;
+color:red;
+border: 1px solid orange;
+
+}
+
+input#inputStatus{
+
+min-width:30%;
+height:20px;
+color:red;
+border: 1px solid orange;
+
+}
+/*
+button {
+
+	background: #d98134;
+  background-image: -webkit-linear-gradient(top, #d98134, #b8b12b);
+  background-image: -moz-linear-gradient(top, #d98134, #b8b12b);
+  background-image: -ms-linear-gradient(top, #d98134, #b8b12b);
+  background-image: -o-linear-gradient(top, #d98134, #b8b12b);
+  background-image: linear-gradient(to bottom, #d98134, #b8b12b);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  text-shadow: 1px 1px 3px #f28603;
+  font-family: Courier New;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+
+}
+
+button:hover {
+  background: #e67700;
+  text-decoration: none;
+}*/
+
+
+        
+
+
+
